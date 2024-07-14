@@ -1,11 +1,10 @@
+
+import Approach from "@/Components/Approaches";
 import Client from "@/Components/Client";
+import Experience from "@/Components/Experience";
 import { CardHoverEffectDemo } from "@/Components/Pages/Grid";
 import Hero from "@/Components/Pages/Hero";
 import Projects from "@/Components/Projects";
-import { FloatingNav } from "@/Components/UI/floating-navbar";
-
-import Image from "next/image";
-import { BiHome } from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -16,6 +15,8 @@ export default function Home() {
         <CardHoverEffectDemo/>
         <Projects/>
         <Client/>
+        <Experience/>
+        <Approach/>
       </div>
     </main>
   );
