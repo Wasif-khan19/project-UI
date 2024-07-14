@@ -1,28 +1,30 @@
-import { gridItems } from "@/Components/Data";
-import { BentoGrid, BentoGridItem } from "@/Components/UI/BentoGrid";
+import { HoverEffect } from "@/Components/UI/card-hover-effect";
 
-const Grid = () => {
+export function CardHoverEffectDemo() {
   return (
-    <section id="about">
-      <BentoGrid className="w-full py-20">
-        {gridItems.map((item, i) => (
-          <BentoGridItem
-            id={item.id}
-            key={i}
-            title={item.title}
-            description={item.description}
-            // remove icon prop
-            // remove original classname condition
-            className={item.className}
-            img={item.img}
-            imgClassName={item.imgClassName}
-            titleClassName={item.titleClassName}
-            spareImg={item.spareImg}
-          />
-        ))}
-      </BentoGrid>
-    </section>
+    <div className="max-w-5xl mx-auto px-8">
+      <HoverEffect items={projects} />
+    </div>
   );
-};
-
-export default Grid;
+}
+export const projects = [
+  {
+    title: "Frontend",
+    description:
+      "HTML5, CSS3, Bootstrap, ANT DESIGN, MUI (Material-UI), SHADCN, ACETERNITY, FRAMER MOTION.",
+    link: "",
+  },
+  {
+    title: "Backend",
+    description:
+      "Django, NodeJS, ExpressJS, PostgreSQL, Firebase, MongoDB, MySQL, Next.js, NestJS, Apollo Server, PHP, Laravel",
+    link: "",
+  },
+  {
+    title: "Cloud",
+    description:
+      "PostgreSQL, Firebase, MongoDB, MySQL, AWS, AZURE.",
+    link: "",
+  },
+  
+];
