@@ -22,9 +22,7 @@ export const projects = [
   },
   {
     title: "Cloud",
-    description:
-      "PostgreSQL, Firebase, MongoDB, MySQL, AWS, AZURE.",
+    description: "PostgreSQL, Firebase, MongoDB, MySQL, AWS, AZURE.",
     link: "",
   },
-  
 ];

@@ -183,14 +183,14 @@ export const workExperience = [
     id: 2,
     title: "Front-end Developer - Hashtag Digital",
     desc: "Excelled as a React.js developer for one year tenure, actively shaping and optimizing front-end solutions for improved user experiences.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "MERN Stack Developer - Scoop Solutions",
     desc: "Seasoned MERN Stack developer for 2 years, leading end-to-end development at Scoop Solutions. Collaborated cross-functionally to deliver scalable solutions, driving technological advancement and project success.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
   },
   {
