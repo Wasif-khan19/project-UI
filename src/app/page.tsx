@@ -1,10 +1,11 @@
 
-import Approach from "@/Components/Approaches";
-import Client from "@/Components/Client";
-import Experience from "@/Components/Experience";
+import Approach from "@/Components/Pages/Approaches";
+import Client from "@/Components/Pages/Client";
+import Experience from "@/Components/Pages/Experience";
+import Footer from "@/Components/Pages/Footer";
 import { CardHoverEffectDemo } from "@/Components/Pages/Grid";
 import Hero from "@/Components/Pages/Hero";
-import Projects from "@/Components/Projects";
+import Projects from "@/Components/Pages/Projects";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Client/>
         <Experience/>
         <Approach/>
+        <Footer/>
       </div>
     </main>
   );
